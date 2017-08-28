@@ -1,6 +1,6 @@
 ﻿# Assignment #1: Week 35
 
-## Introduction to Software Engineering
+## Software Engineering
 
 ### Exercise 1
 In the following description, explain when the term account is used as an application domain concept and when as a solution domain concept:
