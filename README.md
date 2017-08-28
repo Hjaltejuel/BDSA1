@@ -1,13 +1,21 @@
-﻿# Exercise 1
+﻿# Assignment #1: Week 35
 
-## Leap Year
+## Introduction to Software Engineering
+
+Solve the following exercises in the [OOSE] book: 1-6, 1-8
+
+## C#
+
+Fork this repository and implement the code required for the assignments below.
+
+### Leap Year
 
 In the `Calculator` class you will find a method `IsLeapYear` which is already implemented.
 
 Implement a set of unit tests in the `CalculatorIsLeapYear.cs` file, which ensure that all the following rules are verified:
 
-1. Years less than 1582 are not supported (can you answer why?)
-2. Years above 9999 are not supported
+1. Years before 1582 are not supported (can you answer why?)
+2. Years after 9999 are not supported
 3. A leap year is divisible by 4
 4. A year not divisible by 4 is a common year
 5. A year not divisible by 100 is a leap year
@@ -24,7 +32,9 @@ return year % 4 ...
 
 ... and verify that everything still works according to the specification.
 
-## Power Of
+Finally introduce a new method called `IsFrameworkLeapYear` which uses the built-in `System.Globalization.GregorianCalendar` type to solve the problem. 
+
+### Power Of
 
 You need to implement the `IsPowerOf` method in the `Calculator` class.
 The method should return `true` if a given `number` is a power of a given `power`.
@@ -35,7 +45,7 @@ You should try to implement the method using *tail recursion* in lieu of a loop.
 In the `CalculatorIsPowerOfTests.cs` file you will find a set of unit tests.
 All tests must be green to pass the exercise.
 
-## Main
+### Main
 
 Implement and test the `Main` method of the `Program` class.
 
