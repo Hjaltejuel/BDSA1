@@ -1,7 +1,7 @@
 ﻿# Assignment #1: Week 35
 
 ## Introduction to Software Engineering
-
+asd
 Solve the following exercises in the [OOSE] book: 1-6, 1-8
 
 ## C&#35;
