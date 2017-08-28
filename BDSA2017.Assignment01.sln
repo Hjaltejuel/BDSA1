@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDSA2017.Exercise01", "BDSA2017.Exercise01\BDSA2017.Exercise01.csproj", "{440DD3AE-C6E5-451D-9AA2-15DE0B0DC111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDSA2017.Assignment01", "BDSA2017.Assignment01\BDSA2017.Assignment01.csproj", "{440DD3AE-C6E5-451D-9AA2-15DE0B0DC111}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDSA2017.Exercise01.Tests", "BDSA2017.Exercise01.Tests\BDSA2017.Exercise01.Tests.csproj", "{F1392C2D-AC73-4B45-8BA8-2AE035EA8C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDSA2017.Assignment01.Tests", "BDSA2017.Assignment01.Tests\BDSA2017.Assignment01.Tests.csproj", "{F1392C2D-AC73-4B45-8BA8-2AE035EA8C40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7AA2CE4-5412-4AF2-95FF-77ABA760A1AB}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,7 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>    
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>    
+    <Authors>Rasmus Lystrøm and Paolo Tell</Authors>    
+    <Company>ITU</Company>    
+    <Copyright>Copyright © ITU 2017</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BDSA2017.Exercise01\BDSA2017.Exercise01.csproj" />
+    <ProjectReference Include="..\BDSA2017.Assignment01\BDSA2017.Assignment01.csproj" />
   </ItemGroup>
 
   <ItemGroup>
