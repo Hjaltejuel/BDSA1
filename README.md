@@ -22,15 +22,15 @@ Implement a set of unit tests in the `CalculatorIsLeapYear.cs` file, which ensur
 6. A year not divisible by 400 is a common year
 7. Otherwise it is a leap year
 
-A test must only ever have one assertion, but you are allowed to implement some of you tests as theories if you want.
+A test must only ever have one assertion, but you are allowed to implement some of your tests as theories if you want.
 
-When you have verified that all tests are passing, replace the last three `if` statements with a one-liner starting with:
+When you have verified that all tests are passing, refactor the last three `if` statements with a one-liner starting with:
 
 ```csharp
 return year % 4 ...
 ```
 
-... and verify that everything still works according to the specification.
+... and verify that all your tests are still green.
 
 Finally introduce a new method called `IsFrameworkLeapYear` which uses the built-in `System.Globalization.GregorianCalendar` type to solve the problem. 
 
