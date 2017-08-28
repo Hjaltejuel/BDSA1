@@ -48,7 +48,7 @@ Given an understandable command it should print out the result of running the co
 
 Given no arguments or something that's not understandable, it should print out an error message.
 
-You do not need to test the exception cases in the `IsLeapYear` method.
+You do not need to test the exception cases of the `IsLeapYear` method.
 
-You are *not* allowed to use `try`/`catch` - the program may only throw exceptions from the `IsLeapYear` method.
+You are *not* allowed to use `try`/`catch` and the program may only throw exceptions from the `IsLeapYear` method.
 
