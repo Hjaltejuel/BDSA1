@@ -10,9 +10,9 @@ In the following description, explain when the term account is used as an applic
 A passenger aircraft is composed of several millions of individual parts and requires thousands of persons to assemble. A four-lane highway bridge is another example of complexity. The first version of Word for Windows, a word processor released by Microsoft in November 1989, required 55 person-years, resulted into 249,000 lines of source code, and was delivered 4 years late. Aircraft and highway bridges are usually delivered on time and below budget, whereas software is often not. Discuss what are, in your opinion, the differences between developing an aircraft, a bridge, and a word processor, which would cause this situation.
 
 ### Exercise 3
-a. Explain the differences between software development and software engineering.
-b. Describe the history behind the term 'software engineering'.
-c. Explain the expression 'there is no silver bullet' in relation to software systems.
+1. Explain the differences between software development and software engineering.
+2. Describe the history behind the term 'software engineering'.
+3. Explain the expression 'there is no silver bullet' in relation to software systems.
 
 
 
