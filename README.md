@@ -27,8 +27,8 @@ return year % 4 ...
 ## Power Of
 
 You need to implement the `IsPowerOf` method in the `Calculator` class.
-The method should return `true` is a given `number` is a power of a given `power`.
-E.g. given the number `8` and the power `2`, the method should return `true` because 8 is 2 to the power of 3.
+The method should return `true` if a given `number` is a power of a given `power`.
+E.g. given the number `8` and the power `2`, the method should return `true`, because 8 is 2 to the power of 3.
 
 You should try to implement the method using *tail recursion* in lieu of a loop.
 
