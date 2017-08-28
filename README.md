@@ -4,7 +4,7 @@
 
 Solve the following exercises in the [OOSE] book: 1-6, 1-8
 
-## C\#
+## C##
 
 Fork this repository and implement the code required for the assignments below.
 
