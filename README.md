@@ -43,7 +43,7 @@ E.g. given the number `8` and the power `2`, the method should return `true`, be
 You should try to implement the method using *tail recursion* in lieu of a loop.
 
 In the `CalculatorIsPowerOfTests.cs` file you will find a set of unit tests.
-All tests must be green to pass the exercise.
+All tests must be green.
 
 ### Main
 
