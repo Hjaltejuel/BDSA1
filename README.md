@@ -14,9 +14,6 @@ A passenger aircraft is composed of several millions of individual parts and req
 2. Describe the history behind the term 'software engineering'.
 3. Explain the expression 'there is no silver bullet' in relation to software systems.
 
-
-
-
 ## C&#35;
 
 Fork this repository and implement the code required for the assignments below.
@@ -75,3 +72,7 @@ You do not need to test the exception cases of the `IsLeapYear` method.
 
 You are *not* allowed to use `try`/`catch` and the program may only throw exceptions from the `IsLeapYear` method.
 
+## Submitting the assignment
+
+To submit the assignment you need to create a .pdf document using LaTeX containing the answers to the questions.
+Upload the document to Peergrade and include a link to a public repository containing your fork of the completed code.
