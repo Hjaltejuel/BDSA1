@@ -6,6 +6,11 @@ namespace BDSA2017.Exercise01
     {
         public static void Main(string[] args)
         {
+            if (args.Length == 0 || args.Length>2) {
+                Console.WriteLine("Error");
+                Console.ReadLine();
+            } else
+           
         }
     }
 }

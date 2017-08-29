@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace BDSA2017.Exercise01
 {
@@ -14,24 +15,27 @@ namespace BDSA2017.Exercise01
             {
                 throw new ArgumentException("Year must less than 10000", nameof(year));
             }
-            if (year % 4 != 0)
-            {
-                return false;
-            }
-            if (year % 100 != 0)
-            {
-                return true;
-            }
-            if (year % 400 != 0)
-            {
-                return false;
-            }
-            return true;
+            return (year % 4 == 0 && year % 100 != 0) || (year % 100 == 0 && year % 400 == 0);
+         
+
+        }
+        public static bool IsFrameworkLeapYear(int year)
+        {
+            GregorianCalendar myGreCal = new GregorianCalendar();
+            return myGreCal.IsLeapYear(year);
         }
 
         public static bool IsPowerOf(int number, int power)
         {
-            throw new NotImplementedException();
+            return PowerOf(number, power, power);
+        }
+        public static bool PowerOf(int number, int power, int startIndex)
+        {
+            if (number == 1) return true;
+            if (power == 1) return false;
+            if (Math.Abs(number) < Math.Abs(power)) return false;
+            if (number == power) return true;
+            else return PowerOf(number, power * startIndex, startIndex);
         }
     }
 }
