@@ -25,7 +25,6 @@ namespace BDSA2017.Exercise01.Tests
 
         [Theory]
         [InlineData(1604)]
-        [InlineData(1600)]
         [InlineData(1608)]
         [InlineData(1616)]
         [InlineData(1620)]

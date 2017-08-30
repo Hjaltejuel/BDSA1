@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Globalization;
 
-namespace BDSA2017.Exercise01
+
+namespace BDSA2017.Assignment01
 {
     public class Calculator
     {
@@ -31,11 +32,11 @@ namespace BDSA2017.Exercise01
         }
         public static bool PowerOf(int number, int power, int startIndex)
         {
-            if (number == 1) return true;
-            if (power == 1) return false;
-            if (Math.Abs(number) < Math.Abs(power)) return false;
-            if (number == power) return true;
-            else return PowerOf(number, power * startIndex, startIndex);
+            if (number == 1) return true; //Hvis nummeret vi prøver at ramme er 1, så er det altid sandt, idet at et alle tal opløftet i 0 giver 1
+            if (power == 1) return false; //Hvis power er 1 efter at vi har fastlået at number ikke er 1 kan den aldrig gå op idet 1 opløftet i alt giver 1
+            if (Math.Abs(number) < Math.Abs(power)) return false; // check for at se om vi er gået over number værdien
+            if (number == power) return true;//check for at se om vi er nået number værdien
+            else return PowerOf(number, power * startIndex, startIndex); //recursivt kald
         }
     }
 }
