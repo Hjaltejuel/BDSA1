@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BDSA2017.Assignment01.Tests": {
+      "commandName": "Project",
+      "commandLineArgs": "leap 10000"
+    }
+  }
+}
