@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace BDSA2017.Exercise01.Tests
+namespace BDSA2017.Assignment01.Tests
 {
     public partial class CalculatorTests
     {

@@ -9,6 +9,10 @@ namespace BDSA2017.Assignment01
             Calculator cal = new Calculator();
             int n = 0;
             int k = 0;
+            if(args == null)
+            {
+                Console.WriteLine("Please give valid arguments");
+            } else
             if (args.Length == 2)
             {
                 if (args[0].ToLower().Equals("leap"))
@@ -18,12 +22,12 @@ namespace BDSA2017.Assignment01
                     if (isNumber == true)
                     {
                         Console.WriteLine(Calculator.IsLeapYear(n));
-                        Console.ReadLine();
+                        
                     }
                     else
                     {
                         Console.WriteLine("Please write a valid year number");
-                        Console.ReadLine();
+                       
                     }
 
                 }
@@ -31,7 +35,7 @@ namespace BDSA2017.Assignment01
                 {
 
                     Console.WriteLine("Please start your call with leap, followed by a year");
-                    Console.ReadLine();
+                 
 
                 }
             }
@@ -46,21 +50,21 @@ namespace BDSA2017.Assignment01
                     if (isNumber == true && isNumber2 == true)
                     {
                         Console.WriteLine(Calculator.IsPowerOf(n,k));
-                        Console.ReadLine();
+                 
                     } else {
                         Console.WriteLine("Please give numbers as the first and third argument");
-                        Console.ReadLine();
+                        
                     }
                 } else
                 {
                     Console.WriteLine("Please write powerof as the second argument");
-                    Console.ReadLine();
+                    
                 }
             }
             else
             {
                 Console.WriteLine("Please give valid arguments");
-                Console.ReadLine();
+                
             }
         }
             
