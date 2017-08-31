@@ -12,7 +12,7 @@ namespace BDSA2017.Assignment01.Tests
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            Program.Main(new String[] { "leap", "1600" });
+            Program.Main(new string[] { "leap", "1600" });
             var output = writer.GetStringBuilder().ToString();
 
             Assert.Equal("True" + Environment.NewLine, output);
@@ -24,7 +24,7 @@ namespace BDSA2017.Assignment01.Tests
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            Program.Main(new String[] { "100", "powerof", "10" });
+            Program.Main(new string[] { "100", "powerof", "10" });
             var output = writer.GetStringBuilder().ToString();
 
             Assert.Equal("True" + Environment.NewLine, output);
@@ -48,7 +48,7 @@ namespace BDSA2017.Assignment01.Tests
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            Program.Main(new String[] {"leap", "hej" });
+            Program.Main(new string[] {"leap", "hej" });
             var output = writer.GetStringBuilder().ToString();
 
             Assert.Equal("Please write a valid year number" + Environment.NewLine, output);
@@ -60,7 +60,7 @@ namespace BDSA2017.Assignment01.Tests
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            Program.Main(new String[] { "leaps","100"});
+            Program.Main(new string[] { "leaps","100"});
             var output = writer.GetStringBuilder().ToString();
 
             Assert.Equal("Please start your call with leap, followed by a year" + Environment.NewLine, output);
@@ -72,7 +72,7 @@ namespace BDSA2017.Assignment01.Tests
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            Program.Main(new String[] { "le", "powerof", "100" });
+            Program.Main(new string[] { "le", "powerof", "100" });
             var output = writer.GetStringBuilder().ToString();
 
             Assert.Equal("Please give numbers as the first and third argument" + Environment.NewLine, output);
@@ -84,7 +84,7 @@ namespace BDSA2017.Assignment01.Tests
             var writer = new StringWriter();
             Console.SetOut(writer);
 
-            Program.Main(new String[] { "100","powerofs", "100" });
+            Program.Main(new string[] { "100","powerofs", "100" });
             var output = writer.GetStringBuilder().ToString();
 
             Assert.Equal("Please write powerof as the second argument" + Environment.NewLine, output);
